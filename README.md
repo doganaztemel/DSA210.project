@@ -29,7 +29,21 @@ This study utilizes datasets from **OECD.org**, covering education and economic 
 - **Dataset Files:**  
   - The raw datasets used in this study can be accessed here: [Google Drive Dataset](https://drive.google.com/drive/folders/1SA7Y0LUGDIU6Qoxsva87JDQY1Tp45lXP?usp=drive_link)  
 
-## 4. Methodology
+## 4. Hypotheses
+
+In this study, we aim to investigate the relationship between GDP per capita and women’s tertiary education attainment across OECD countries. The following hypotheses are formulated:
+	•	Null Hypothesis (H₀):
+There is no statistically significant relationship between GDP per capita and women’s tertiary education attainment in OECD countries. Variations in GDP per capita do not meaningfully influence the rate of tertiary education attainment among women.
+	•	Alternative Hypothesis (H₁):
+There is a statistically significant relationship between GDP per capita and women’s tertiary education attainment in OECD countries. Specifically:
+	•	H₁ₐ: Higher GDP per capita is associated with higher rates of tertiary education attainment among women.
+	•	H₁_b: Lower GDP per capita is associated with lower rates of tertiary education attainment among women.
+	•	H₁_c: After controlling for relevant socioeconomic factors, GDP per capita remains a significant predictor of women’s tertiary education attainment.
+
+Through statistical modeling and analysis, we seek to either reject the null hypothesis or provide evidence supporting the alternative hypothesis.
+
+
+## 5. Methodology
 
 ### 4.1 Data Collection and Preparation
 
@@ -37,13 +51,13 @@ This study utilizes datasets from **OECD.org**, covering education and economic 
 - Ensure data consistency by aligning definitions and measurement units.  
 - Address missing values through appropriate imputation methods.  
 
-### 4.2 Exploratory Data Analysis (EDA)
+### 5.2 Exploratory Data Analysis (EDA)
 
 - Compute summary statistics (mean, median, standard deviation) for GDP per capita and women’s tertiary education attainment rates.  
 - Visualize data distributions using histograms and boxplots.  
 - Examine the relationship between GDP per capita and women’s tertiary education attainment using scatter plots.  
 
-### 4.3 Statistical Analysis
+### 5.3 Statistical Analysis
 
 #### Correlation Analysis
 
@@ -54,7 +68,7 @@ This study utilizes datasets from **OECD.org**, covering education and economic 
 - Perform a **simple linear regression** with women’s tertiary education attainment as the dependent variable and GDP per capita as the independent variable.  
 - Evaluate the regression model’s assumptions and fit.  
 
-## 5. Tools Used
+## 6. Tools Used
 
 This study will use **Python** for data analysis and visualization. The following libraries will be utilized:
 
